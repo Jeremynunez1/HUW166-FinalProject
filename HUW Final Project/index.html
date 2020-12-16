@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Boostrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <title>GamerZone</title>
+  </head>
+
+
+  <body>
+  <!-- Banner -->
+    <div class="Banner">
+     <img src="Img/Banner.jpg" alt="Banner" class="responsive" style="max-width:100%; height: auto;">
+    </div>
+
+<!-- Navigation -->
+    <nav>
+    <ul class="nav nav-tabs nav justify-content-center nav-fill">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#content">Content</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#contact">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#sign">Sign In</a>
+  </li>
+</ul>
+</nav>
+</div>
+</div>
+
+<div class="image-container">
+<center><img src="img/game-controller.png" alt="controller"></center>
+    </div>
+  </br>
+
+<section>
+<h1>Welcome To The Zone</h1>
+  <center><p>This is a space created for those who take interest in gaming and seek to inform themselves on places where they can find the latest upcoming news in the gaming community</p></center>
+</section>
+
+</br>
+
+   <!--carousel-->
+   <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/halo.jpg" alt="Halo">
+    </div>
+    <div class="carousel-item">
+      <img src="img/division.jpg" alt="Division">
+    </div>
+    <div class="carousel-item">
+      <img src="img/game-girl.jpg" alt="Game-Girl">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+</br>
+<div class="center-text">
+				<div id="divcontent">
+					<a name="content">
+            <br>
+		   <center><h3>Here are some great gaming news sources to ckeck out</h3></center>
+    </a>
+  </div>
+</div>
+    <br>
+    <br>
+  <div class="card-group">
+  <div class="card">
+    <img src="img/IGN Site.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">#1 IGN</h5>
+      <p class="card-text"> IGN is one of the most popular and iconic websites for gaming, here you can find a ton of news and updates on any game genre as well consoles.  </p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/gamespot-site.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">#2 GAMESPOT</h5>
+      <p class="card-text">Like IGN, GAMESPOT has simlar features providing a vast amout of information and constantly remaining up to date with events going on in the gaming community. </p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/igdb-site.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">#3 IGDB</h5>
+      <p class="card-text"> With it's different approach, IGDB includes ratings of your favorte game titles always filling you in on current game popularity.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+<section>
+<footer>
+  <div class="center-text">
+				<div id="Contact">
+					 <a name="contact">
+              <div id="divSocialIcons">
+                <img src="img/gmail-icon.png" title="My Gmail Account" alt="My Gmail Account" align="middle" class="bigSocialIcons"> Jeremywnunez@gmail.com
+    							<a href="https://mail.google.com/mail/u/1/?tab=wm&ogbl#inbox">
+             </div>
+         </div>
+   </div>
+</footer>
+</section>
+
+
+<section>
+  <div class="center-text">
+  	<div id="divSignin">
+  		<a name="sign">
+      </a>
+      <form action="action_page.php" method="post">
+  <div class="imgcontainer"></div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div>
+</div>
+</section>
+
+
+
+<!-- Boostrap-->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>
